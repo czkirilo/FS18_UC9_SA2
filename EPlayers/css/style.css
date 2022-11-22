@@ -1,0 +1,37 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: #1E1C21;
+    height: 100px;
+    padding-top: 20px;
+}
+
+a{
+    color: chartreuse;
+}
+
+.menu{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
