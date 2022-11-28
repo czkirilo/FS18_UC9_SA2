@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@700&display=swap');
+
 /* CSS RESET */
 *{
     margin: 0;
@@ -34,4 +36,65 @@ a{
     color: aliceblue;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+.banner {
+    height: 607px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo-banner h1{
+    color: aliceblue;
+    font-family: "Titillium Web";
+    font-size: 80px;
+}
+
+.conteudo-banner p{
+    color: aliceblue;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.conteudo-banner a{
+    padding: 15px;
+    background-color: #c31616;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.conteudo-banner{
+    width: 497;
+    height: 237;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posicionamento-banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.jogos{
+    background-color: black;
+    height: 120px;
+}
+
+.posicionamento-jogos{
+    height: 100%;
+}
+
+.container{
+    max-width: 1200px;
 }
