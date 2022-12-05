@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+#barras{
+    display: none;
+}
+
 .cabecalho{
     height: 100%;
     display: flex;
@@ -25,6 +29,11 @@ header{
 
 a{
     color: chartreuse;
+}
+
+.icone-menu{
+    height: 40px;
+
 }
 
 .menu{
@@ -97,4 +106,45 @@ a{
 
 .container{
     max-width: 1200px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .container-grid{
+        width: 1000px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    .container-grid{
+        width: 800px;
+    }
+
+    #barras{
+        display: inline-block;
+    }
+
+    .cabecalho{
+        position: relative;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 91px;
+        right: 0px;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: #1E1C21;
+        height: 300px;
+    }
+
+    .menu a{
+        font-size: 20px;
+    }
+    
 }
