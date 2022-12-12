@@ -50,10 +50,21 @@ a{
 
 .banner {
     height: 607px;
-    background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.banner-f1{
+    background-image: url(../img/banner_pilotos.png);
+}
+
+.banner-cs{
+    background-image: url(../img/banner_cs.png);
+}
+
+.banner-lol{
+    background-image: url(../img/banner_lol.png);
 }
 
 .conteudo-banner h1{
@@ -129,7 +140,7 @@ a{
         position: relative;
     }
 
-    .menu{
+     .menu{
         display: none;
         position: absolute;
         top: 91px;
@@ -143,8 +154,14 @@ a{
         height: 300px;
     }
 
+
+
     .menu a{
         font-size: 20px;
+    }
+
+    .menu-ativo{
+        display: flex;
     }
     
 }
